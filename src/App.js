@@ -19,7 +19,9 @@ const App = () => {
       <p>
         Today's advice is <q>{advise}</q>
       </p>
-      <button onClick={getAdvice}>Get advice</button>
+      <button className="btn" onClick={getAdvice}>
+        Get advice
+      </button>
       <p>
         You have read <b>{count}</b> pieces of advice
       </p>

@@ -1,12 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&family=Onest:wght@300&family=Philosopher:wght@700&family=Poppins:wght@200&display=swap");
 .App {
   text-align: center;
 }
-
+body {
+  background-color: #b931fc;
+  color: white;
+  font-family: "Crimson";
+  font-size: large;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.btn {
+  border: none;
+  width: 8rem;
+  font-size: 17px;
+  /* color: white; */
+  border-radius: 8px;
+  cursor: pointer;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
